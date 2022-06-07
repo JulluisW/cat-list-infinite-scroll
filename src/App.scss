@@ -1,0 +1,60 @@
+.container {
+  margin: 0 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  border-radius: 10px;
+  width: 800px;
+  margin: 10px 0;
+  padding: 25px 25px;
+  display: flex;
+  background-color: rgb(119, 25, 25);
+  color: white;
+
+  &-detail {
+    margin-right: 40px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  &-detail > * {
+    margin: 10px 0;
+  }
+
+  &-expansion {
+    width: 400px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+  }
+
+  &-expansion > * {
+    margin: 10px 0;
+  }
+}
+
+.profile-image {
+  margin-right: 50px;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  background-color: white;
+  border-radius: 200px;
+}
+
+.button {
+  width: fit-content;
+  align-self: center;
+}
+
+input {
+  height: 30px;
+  width: 50%;
+  padding: 0 10px;
+  font-size: 22px;
+}
